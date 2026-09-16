@@ -14,12 +14,87 @@
     <div class="text-center flex gap-2 flex-col">
       <NuxtLink to="https://forms.hackclub.com" class="opacity-100!">
         <button
-          class="py-3 px-5 bg-linear-to-r from-red-300 to-red-400 transition-all hover:-rotate-5 cursor-pointer hover:scale-105 rounded-2xl font-bold"
+          class="py-3 px-5 text-white! bg-linear-to-r from-red-300 to-red-400 transition-all hover:-rotate-5 cursor-pointer hover:scale-105 rounded-2xl font-bold"
         >
           Submit now!
         </button>
       </NuxtLink>
-      <p>Teens aged 13 to 18</p>
+      <p>*teens aged 13 to 18</p>
+    </div>
+  </div>
+
+  <div class="space-y-4 mt-12">
+    <div class="bg-mist-800 rounded-2xl p-4">
+      <h3>Build your project</h3>
+      <p>
+        Build anything for 2.5 hours and track it with
+        <NuxtLink to="https://hackatime.hackclub.com">Hackatime</NuxtLink>!
+      </p>
+    </div>
+    <div class="bg-mist-800 rounded-2xl p-4">
+      <h3>Submit your project</h3>
+      <p>
+        <NuxtLink to="https://forms.hackclub.com">Fill out the form</NuxtLink>
+        to submit your project.
+      </p>
+    </div>
+    <div class="bg-red-400 rounded-2xl p-4">
+      <h3>Profit!</h3>
+      <p>Get a SIGNED polaroid of zach in the mail :)</p>
+    </div>
+  </div>
+
+  <div
+    class="mt-12 bg-linear-to-b from-mist-800 to-transparent rounded-2xl p-4 space-y-4"
+  >
+    <h3>FAQ</h3>
+    <div>
+      <p class="font-bold">Is this legit?</p>
+      <p>
+        Yeah! Hack Club has a history of running some
+        <NuxtLink to="https://stardance.hackclub.com">cool</NuxtLink>,
+        <NuxtLink to="https://campfire.hackclub.com">awesome</NuxtLink> and
+        <NuxtLink to="https://midnight.hackclub.com">fun</NuxtLink> events.
+        <NuxtLink to="https://hackclub.com"
+          >You can learn more about Hack Club here.</NuxtLink
+        >
+      </p>
+    </div>
+    <div>
+      <p class="font-bold">Who's running this?</p>
+      <p>
+        It's me,
+        <NuxtLink to="https://hackclub.enterprise.slack.com/team/U07T7BUQMGF"
+          >Emma!</NuxtLink
+        >
+      </p>
+    </div>
+    <div>
+      <p class="font-bold">How long is this event running for?</p>
+      <p>TWO DAYS! So get building projects before it's over!!</p>
+    </div>
+    <div>
+      <p class="font-bold">What kind of project can I build?</p>
+      <p>
+        Anything you can ship to Hack Club! Make sure you ship a
+        <b>functional</b> project. Make sure it's open source! If it's a
+        website, make sure to host it somewhere.
+      </p>
+    </div>
+    <div>
+      <p class="font-bold">What kind of picture will I be getting?</p>
+      <p>
+        You'll get a one-of-a-kind, signed, Polaroid I-Type picture shot on a
+        Polaroid Flip camera. We'll send it over lettermail :)
+      </p>
+    </div>
+  </div>
+
+  <div class="mt-12">
+    <div class="flex justify-center gap-2">
+      <NuxtLink to="https://hackclub.com/privacy-and-terms"
+        >Privacy & terms</NuxtLink
+      >
     </div>
   </div>
 </template>

@@ -26,6 +26,22 @@
     </div>
   </div>
 
+  <div class="mt-12 text-center">
+    <EventCountdown datetime="2026-09-19T03:59:59.999Z" />
+    <p class="mt-2 text-sm opacity-80">
+      Deadline:
+      <NuxtTime
+        datetime="2026-09-19T03:59:59.999Z"
+        month="long"
+        day="numeric"
+        year="numeric"
+        hour="numeric"
+        minute="2-digit"
+        time-zone-name="short"
+      />
+    </p>
+  </div>
+
   <div class="space-y-4 mt-12">
     <div class="bg-mist-800 rounded-2xl p-4 flex gap-4 items-center">
       <div>

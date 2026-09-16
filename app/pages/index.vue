@@ -129,6 +129,15 @@
       <NuxtLink to="https://hackclub.com/privacy-and-terms"
         >Privacy & terms</NuxtLink
       >
+      <NuxtLink to="https://forms.hackclub.com/bounty"
+        >Fulfillment bounty</NuxtLink
+      >
     </div>
+    <p class="mt-2 text-center">
+      made with <3 by
+      <NuxtLink to="https://hackclub.enterprise.slack.com/team/U07T7BUQMGF"
+        >emma</NuxtLink
+      >
+    </p>
   </div>
 </template>

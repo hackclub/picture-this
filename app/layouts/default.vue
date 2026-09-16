@@ -4,12 +4,14 @@
       <NuxtLink to="https://hackclub.com">
         <NuxtImg src="/img/flag-orpheus-top.svg" />
       </NuxtLink>
-      <NuxtLink
-        class="pe-4"
-        to="https://hackclub.enterprise.slack.com/archives/C0C208VFZLJ"
-      >
-        #picture-this on Slack
-      </NuxtLink>
+      <div class="flex gap-2">
+        <NuxtLink
+          class="pe-4"
+          to="https://hackclub.enterprise.slack.com/archives/C0C208VFZLJ"
+        >
+          #picture-this on Slack
+        </NuxtLink>
+      </div>
     </div>
     <div class="flex justify-center pt-15">
       <div class="container max-w-150">

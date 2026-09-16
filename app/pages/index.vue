@@ -50,7 +50,7 @@
       <div>
         <h3>Build your project</h3>
         <p>
-          Build anything for 2.5 hours and track it with
+          Build an open-source coding project for 2.5 hours and track it with
           <NuxtLink to="https://hackatime.hackclub.com">Hackatime</NuxtLink>!
         </p>
       </div>

@@ -12,7 +12,10 @@
   </div>
   <div class="flex justify-center mt-8">
     <div class="text-center flex gap-2 flex-col">
-      <NuxtLink to="https://forms.hackclub.com" class="opacity-100!">
+      <NuxtLink
+        to="https://forms.hackclub.com/picture-this"
+        class="opacity-100!"
+      >
         <button
           class="py-3 px-5 text-white! bg-linear-to-r from-red-300 to-red-400 transition-all hover:-rotate-5 cursor-pointer hover:scale-105 rounded-2xl font-bold"
         >
@@ -43,7 +46,9 @@
       <div>
         <h3>Submit your project</h3>
         <p>
-          <NuxtLink to="https://forms.hackclub.com">Fill out the form</NuxtLink>
+          <NuxtLink to="https://forms.hackclub.com/picture-this"
+            >Fill out the form</NuxtLink
+          >
           to submit your project.
         </p>
       </div>

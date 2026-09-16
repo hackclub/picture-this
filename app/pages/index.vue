@@ -24,29 +24,42 @@
   </div>
 
   <div class="space-y-4 mt-12">
-    <div class="bg-mist-800 rounded-2xl p-4">
-      <h3>Build your project</h3>
-      <p>
-        Build anything for 2.5 hours and track it with
-        <NuxtLink to="https://hackatime.hackclub.com">Hackatime</NuxtLink>!
-      </p>
+    <div class="bg-mist-800 rounded-2xl p-4 flex gap-4 items-center">
+      <div>
+        <h1>1.</h1>
+      </div>
+      <div>
+        <h3>Build your project</h3>
+        <p>
+          Build anything for 2.5 hours and track it with
+          <NuxtLink to="https://hackatime.hackclub.com">Hackatime</NuxtLink>!
+        </p>
+      </div>
     </div>
-    <div class="bg-mist-800 rounded-2xl p-4">
-      <h3>Submit your project</h3>
-      <p>
-        <NuxtLink to="https://forms.hackclub.com">Fill out the form</NuxtLink>
-        to submit your project.
-      </p>
+    <div class="bg-mist-800 rounded-2xl p-4 flex gap-4 items-center">
+      <div>
+        <h1>2.</h1>
+      </div>
+      <div>
+        <h3>Submit your project</h3>
+        <p>
+          <NuxtLink to="https://forms.hackclub.com">Fill out the form</NuxtLink>
+          to submit your project.
+        </p>
+      </div>
     </div>
-    <div class="bg-red-400 rounded-2xl p-4">
-      <h3>Profit!</h3>
-      <p>Get a SIGNED polaroid of zach in the mail :)</p>
+    <div class="bg-red-400 rounded-2xl p-4 flex gap-4 items-center">
+      <div>
+        <h1>3.</h1>
+      </div>
+      <div>
+        <h3>Profit!</h3>
+        <p>Get a SIGNED polaroid of zach in the mail :)</p>
+      </div>
     </div>
   </div>
 
-  <div
-    class="mt-12 bg-linear-to-b from-mist-800 to-transparent rounded-2xl p-4 space-y-4"
-  >
+  <div class="mt-12 bg-mist-800 rounded-2xl p-4 space-y-4">
     <h3>FAQ</h3>
     <div>
       <p class="font-bold">Is this legit?</p>
@@ -90,7 +103,7 @@
     </div>
   </div>
 
-  <div class="mt-12">
+  <div class="mt-12 pb-6">
     <div class="flex justify-center gap-2">
       <NuxtLink to="https://hackclub.com/privacy-and-terms"
         >Privacy & terms</NuxtLink
